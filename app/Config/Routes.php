@@ -12,3 +12,7 @@ $routes->get('/employee/view', 'EmployeeController::view');
 
 $routes->post('/employee/save', 'EmployeeController::save');
 $routes->post('/employee/check_emp_id', 'EmployeeController::check_emp_id');
+
+// เพิ่ม Route สำหรับใบเสนอราคา
+$routes->get('quotation', 'QuotationController::index');
+$routes->get('quotation/print', 'QuotationController::print');

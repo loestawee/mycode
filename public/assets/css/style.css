@@ -1,0 +1,13 @@
+/* สไตล์สำหรับใบเสนอราคา */
+body {
+    font-family: 'Sarabun', sans-serif;
+    margin: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/* สไตล์อื่นๆ ตามที่ต้องการ */
